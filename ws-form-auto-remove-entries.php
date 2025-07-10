@@ -70,7 +70,6 @@ namespace WS_Form_ARE {
                     static::runCleanupCron();
                 } else {
                     add_action('wsform_cleanup_cron_hook', function () {
-                        echo 'test';
                         static::runCleanupCron();
                     });
                 }
